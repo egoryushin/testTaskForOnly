@@ -23,7 +23,7 @@
 1. Клонируйте репозиторий:
 
    ```sh
-   git clone <URL вашего репозитория>
+   git clone https://github.com/egoryushin/testTaskForOnly
    ```
 
 2. Перейдите в директорию проекта:
