@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"allowJs": true,
+		"jsx": "react",
+		"moduleResolution": "node",
+		"outDir": "./dist",
+		"strict": true,
+		"esModuleInterop": true,
+		"module": "commonjs",
+		"checkJs": false,
+		"skipLibCheck": true,
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": "./",
+		"paths": {
+			"*": ["node_modules/*", "src/types/*"]
+		}
+	},
+	"include": ["src/**/*", "types/**/*.d.ts"],
+	"exclude": ["node_modules", "webpack.*.js", "*.config.js"]
+}

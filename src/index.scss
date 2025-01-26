@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: 'PT Sans', 'sans-serif';
+}
+
+.container {
+	width: 100%;
+	max-width: 1440px;
+	height: 100vh;
+	margin: 0 auto;
+	position: relative;
+}
+
+.date-range {
+	position: absolute;
+	left: 16%;
+	top: 38%;
+	font-size: 200px;
+	font-weight: bold;
+	display: flex;
+	letter-spacing: -2px;
+	justify-content: space-between;
+	align-items: center;
+	gap: 80px;
+
+	.start-year {
+		color: #3877ee;
+	}
+	.end-year {
+		color: #ef5da8;
+	}
+	.digit {
+		display: inline-block;
+	}
+}
+
+@media (max-width: 768px) {
+	// .date-range {
+	// 	max-width: 100%;
+	// 	font-size: 56px;
+	// 	letter-spacing: -1px;
+	// 	align-items: center;
+	// 	gap: 15px;
+	// 	justify-content: center;
+	// }
+	.date-range {
+		font-size: 66px;
+		letter-spacing: -1px;
+		gap: 40px;
+		justify-content: center;
+		top: 30%;
+		left: 10%;
+	}
+}

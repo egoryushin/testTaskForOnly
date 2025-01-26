@@ -1,0 +1,35 @@
+.title {
+	font-size: 56px;
+	line-height: 60px;
+	color: #42567a;
+	font-weight: 700;
+	font-family: 'PT Sans';
+	width: 353px;
+	padding-left: 78px;
+	padding-top: 100px;
+	position: relative;
+}
+
+.title::before {
+	content: '';
+	position: absolute;
+	left: 20px;
+	height: 120px;
+	width: 5px;
+	border: 5px;
+	margin-left: -20px;
+	background: linear-gradient(to bottom, #3877ee, #ef5da8);
+}
+
+@media (max-width: 768px) {
+	.title {
+		font-size: 32px;
+		line-height: 38px;
+		max-width: 123px;
+		padding-left: 20px;
+	}
+
+	.title::before {
+		display: none;
+	}
+}

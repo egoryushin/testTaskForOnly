@@ -1,0 +1,50 @@
+.horizontalLine {
+	opacity: 0.1;
+	width: 100%;
+	height: 2px;
+	background-color: #d3d3d3;
+	position: absolute;
+	top: 50%;
+}
+
+.verticalLine {
+	opacity: 0.1;
+	width: 2px;
+	height: 100%;
+	background-color: #d3d3d3;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+}
+
+.leftVerticalLine {
+	opacity: 0.1;
+	width: 2px;
+	height: 100%;
+	background-color: #d3d3d3;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.rightVerticalLine {
+	opacity: 0.1;
+	width: 2px;
+	height: 100%;
+	background-color: #d3d3d3;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+@media (max-width: 768px) {
+	.verticalLine,
+	.leftVerticalLine,
+	.rightVerticalLine {
+		display: none;
+	}
+	.horizontalLine {
+		border: 1px solid #c7cdd9;
+	}
+}

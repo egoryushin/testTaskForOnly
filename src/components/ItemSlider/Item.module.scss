@@ -1,0 +1,42 @@
+.item {
+	width: 100%;
+	font-weight: 400;
+	height: auto;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+}
+
+.year {
+	font-size: 24px;
+	line-height: 30px;
+	color: #3877ee;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.description {
+	color: #42567a;
+	font-size: 20px;
+	line-height: 30px;
+	max-width: 25ch;
+}
+
+@media (max-width: 768px) {
+	.item {
+		max-width: 166px;
+	}
+
+	.year {
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 15px;
+	}
+
+	.description {
+		font-size: 18px;
+		line-height: 24px;
+	}
+}
